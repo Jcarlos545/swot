@@ -39,7 +39,8 @@ class SwotTest : TestCase() {
         assertEquals (true , isAcademic("lee@strath.ac.uk "))             
         assertEquals (false, isAcademic(" gmail.com "))                   
         assertEquals (true , isAcademic("lee@stud.uni-corvinus.hu"))      
-        assertEquals (true , isAcademic("lee@harvard.edu"))               
+        assertEquals (true , isAcademic("lee@harvard.edu")) 
+        assertEquals (true , isAcademic("cursos@upinside.com.br")) 
         assertEquals (true , isAcademic("lee@mail.harvard.edu"))
 
         assertEquals(false, isAcademic("imposter@si.edu"))
